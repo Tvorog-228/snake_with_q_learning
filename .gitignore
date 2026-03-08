@@ -1,0 +1,24 @@
+# Entornos virtuales (el más importante)
+.venv/
+venv/
+env/
+bin/
+lib/
+
+# Archivos de compilación de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de sistema y logs
+.DS_Store
+*.log
+
+# Datos de entrenamiento y modelos (opcional)
+# Si tu Q-table es muy grande, quizás no quieras subirla
+# model/q_table.pkl
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
